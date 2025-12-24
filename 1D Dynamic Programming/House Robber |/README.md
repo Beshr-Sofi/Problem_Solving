@@ -26,13 +26,3 @@ This approach yields linear time complexity because each index is computed at mo
 
 - Time: O(n) — each index is solved once and stored in the memo dictionary.
 - Space: O(n) — recursion depth and memo dictionary both use up to O(n) space.
-
-## Notes
-
-- The implementation in `problem solving.py` uses a `main` wrapper that initializes the memo dictionary
-  and a `rob_tmp` helper that carries out the recursion with memoization.
-- The code includes an example invocation in the `__main__` block.
-
----
-
-If you'd like, I can also add unit tests or convert the solution to an iterative (bottom-up) DP version. Just tell me which you prefer.
