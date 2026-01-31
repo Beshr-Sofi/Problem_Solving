@@ -2,8 +2,6 @@
 
 A repository containing my solutions to the NeetCode problem list.
 
-## Progress Status
-
 ### Core Data Structures
 - Arrays & Hashing
 - Two Pointers
