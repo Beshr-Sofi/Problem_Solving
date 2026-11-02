@@ -70,7 +70,7 @@ Complexity:
 """
 
 
-def numIlands(grid):
+def numIslands(grid):
     """
     Counts the number of connected islands in an m x n binary grid.
     """
@@ -103,11 +103,6 @@ def numIlands(grid):
 
     return result
 
-
-# Alias with standard LeetCode spelling
-numIslands = numIlands
-
-
 def main():
     test_cases = [
         # Test 1: Diagonal lands (not connected) -> 3 islands
@@ -133,7 +128,7 @@ def main():
     ]
 
     for grid, description in test_cases:
-        count = numIlands(grid)
+        count = numIslands(grid)
         print(f"[{description}] -> Number of Islands: {count}")
 
 
